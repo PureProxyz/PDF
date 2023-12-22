@@ -1,3 +1,6 @@
+hckname = prompt("client.name");
+hckcolor = prompt("client.color");
+
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Script from 'next/script';
@@ -11,7 +14,7 @@ import TypingIndicator from '@/components/TypingIndicator'
 
 function randomName() {
   const adjectives = [
-  'PurePro4561'
+  return hckname
   ];
   const nouns = [
     ''
@@ -22,7 +25,7 @@ function randomName() {
 }
 
 function randomColor() {
-  return lime;
+  return hckcolor
 }
 
 let drone = null
