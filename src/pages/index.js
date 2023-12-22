@@ -59,7 +59,7 @@ export default function Home() {
   meRef.current = me;
 
   function connectToScaledrone() {
-    drone = new window.Scaledrone('cc9b1z5du96h7Phu', {
+    drone = new window.Scaledrone('dpo6z5OXHf0Eombx', {
       data: meRef.current,
     });
     drone.on('open', error => {
