@@ -1,5 +1,5 @@
-hckname = prompt("client.name");
-hckcolor = prompt("client.color");
+hckname = prompt('client.name')
+hckcolor = prompt('client.color')
 
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
